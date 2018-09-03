@@ -1,0 +1,415 @@
+.main{
+height:2500px;
+width:1295px;
+background-color: #FFFFFF;
+}
+.h{
+color:#000000;
+
+margin-left:900px;
+height:25px;
+width:150px;
+}
+.google{
+margin-left:850px;
+width:250px;
+margin-bottom:15px;
+}
+.header{
+margin-top:0px;
+height:175px;
+width:1295px;
+background-color: #CCCCCC;
+}
+.logo{
+	height:60px;
+	margin-top:2px;	
+	width:300px;
+	margin-left:100px;
+	float:left;
+}
+.ex{
+height:25px;
+width:300px;
+}
+.menu{
+background-color:#FF9900;
+height:50px;
+
+padding:right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF9900;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000000;
+	font-size:12.5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	
+    background-color: #CC9900;
+	color:#000000;
+}
+
+.active {
+margin-left:100px;
+    background-color: #CC9900;
+	color:#000000;
+	text-decoration:none;
+}
+.slider{
+
+margin-left:100px;
+width:700px;
+height: 300px;
+float:left;
+}
+.mySlides {
+display:none}
+
+.content{
+height:467px;
+width:300px;
+margin-left:805px;
+background-color: #CCCCCC;
+margin-top:1px;
+}
+.cs{
+height:467px;
+background-color:#FFFFFF;
+width:1275px;
+margin-top:10px;
+}
+.img{
+background-color:#ffffff;
+height:100px;
+width:100px;
+margin-left:15px;
+
+}
+.para{
+
+height: 395px;
+width:290px;
+margin-left:8px;
+margin-right:8px;
+font-family: "Times New Roman", Times, serif;
+font-size:20px;
+color: #333333;
+overflow:hidden;
+}
+.light{
+margin-top:5px;
+margin-left:100px;
+background-color:#CCCCCC;
+height:200px;
+width:1010px;
+}
+
+
+* {
+  box-sizing: border-box;
+ 
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width:1000px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gn{
+height:450px;
+width:1010px;
+margin-left:100px;
+background-color:#ffffff;
+margin-top:8px;
+}
+.line{
+height:1px;
+width:1010px;
+background-color: #333333;
+margin-left:100px;
+margin-top:8px;
+}
+.line2{
+height:1px;
+width:1010px;
+background-color: #333333;
+margin-left:100px;
+
+}
+ .glimps{
+background-color: #FFFFFF;
+height:450px;
+width:750px;
+margin-left:3px;
+float:left;
+
+
+}
+.news{
+background-color: #FFFFFF;
+margin-left:760px;
+height:450px;
+width:245px;
+
+
+}
+.title{
+height:40px;
+width:100%;
+background-color: #FFDDEE;
+}
+* {
+    box-sizing: border-box;
+}
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.ver_line{
+background-color:#333333;
+height:100%;
+width:2px;
+float:right;
+margin-left:800px;
+}
+.n_content{
+height:50px;
+width:175px;
+margin-left:70px;
+margin-top:5px;
+color:#000000;
+font-size:12px;
+}
+.links{
+font-size:14px;
+color:#3333CC;
+
+}
+.social{
+margin-left:100px;
+height:450px;
+width:1010px;
+background-color: #FFFFFF;
+}
+.weather{
+background-color: #FFFFFF;
+margin-left:649px;
+height:450px;
+width:360px;
+}
+.fb{
+background-color: #ffffff;
+height:450px;
+width:642px;
+margin-left:3px;
+float:left;
+}
+.tweet{
+margin-left:3px;
+height:450px;
+width:250px;
+background-color:#ffffff;
+float:left;
+}
+.fb-c{
+margin-left:258px;
+background-color:#ffffff;
+height:400px;
+width:382px;
+}
+.tab{
+background-color:#ffffff;
+height:200px;
+width:1010px;
+margin-left:100px;
+}
+.partners{
+ height:175px;
+ margin-left:2px;
+ margin-top:5px;
+ float:left;
+ width:200px;
+ }
+ .footer{
+ width:1295px;
+ background-color: #CC9933;
+ height:325px;
+ }
+ .pages{
+ margin-left:125px;
+ height:300px;
+ width:300px;
+ float:left;
+ }
+ .box{
+ height:300px;
+ width:325px;
+ float:left;
+ margin-left:25px;
+
+ }
+ .list{
+ margin-left:20px;
+ font:Georgia, "Times New Roman", Times, serif;
+ }
+ .last{
+ background-color: #996600;
+ height:75px;
+ width:1295px;
+ color:#FFFFFF;
+ }
+ .text{
+ margin-left:125px;
+ margin-right:125px;
+ }
